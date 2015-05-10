@@ -83,7 +83,7 @@ module.exports = function (grunt) {
           wrapLineLength: 0
         }
       }
-    },
+    }
   });
 
   grunt.registerTask("default", ["jshint:all", "jscs", "mochaTest"]);
